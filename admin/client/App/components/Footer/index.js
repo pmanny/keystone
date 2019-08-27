@@ -41,7 +41,7 @@ var Footer = React.createClass({
 				<Container>
 					<span> powered by </span>
 					<a
-						href={backUrl}
+						href="http://kafalsolutions.com"
 						tabIndex="-1"
 						className={css(classes.link)}
 					>
