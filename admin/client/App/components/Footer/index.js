@@ -39,6 +39,7 @@ var Footer = React.createClass({
 		return (
 			<footer className={css(classes.footer)} data-keystone-footer>
 				<Container>
+					<span> powered by </span>
 					<a
 						href={backUrl}
 						tabIndex="-1"
@@ -46,16 +47,6 @@ var Footer = React.createClass({
 					>
 						{brand + (appversion ? (' ' + appversion) : '')}
 					</a>
-					<span> powered by </span>
-					<a
-						href="http://keystonejs.com"
-						target="_blank"
-						className={css(classes.link)}
-						tabIndex="-1"
-					>
-						KeystoneJS
-					</a>
-					<span> version {version}.</span>
 					{this.renderUser()}
 				</Container>
 			</footer>
